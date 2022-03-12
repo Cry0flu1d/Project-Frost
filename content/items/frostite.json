@@ -1,0 +1,8 @@
+{
+    "hardness" : 2,
+    "color" : "9EF4FFFF",
+    "research": {
+    "parent": "water"
+  }
+
+}

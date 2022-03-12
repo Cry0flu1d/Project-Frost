@@ -1,0 +1,12 @@
+{    
+    "type": "Wall", 
+    "health": 1680,
+    "size": 2,
+    "insulated": false,
+    "absorbLasers": true,
+    "requirements": [
+		{"item": "frostite", "amount": 24}
+    ],
+    "category": "defense",
+    "research": "frostite-wall"
+}

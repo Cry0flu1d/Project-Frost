@@ -1,0 +1,12 @@
+{    
+    "type": "Wall", 
+    "health": 420,
+    "size": 1,
+    "insulated": false,
+    "absorbLasers": true,
+    "requirements": [
+		{"item": "frostite", "amount": 6}
+    ],
+    "category": "defense",
+    "research": "large-titanium-wall"
+}

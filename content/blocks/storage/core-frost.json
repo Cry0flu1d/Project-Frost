@@ -1,0 +1,18 @@
+{
+	"type": "CoreBlock",
+	"health": 4000,
+	"size": 4,
+	"itemCapacity": 6000,
+	"unitCapModifier": 16,
+    "researchCostMultiplier": 0.15,
+    "unitType": "subzero",
+	"requirements": [
+		{ "item": "copper", "amount": 3000 },
+		{ "item": "lead", "amount": 3000 },
+		{ "item": "titanium", "amount": 2000},
+		{ "item": "silicon", "amount": 2500 },
+		{ "item": "frostite", "amount": 1500 }
+	],
+  "category": "effect",
+	"research": "core-foundation"
+}
