@@ -5,8 +5,8 @@
     "laserRange": 9,
     "maxNodes": 6,
     "hasPower": true,
-    "laserColor1": "6FE7F7",
-    "laserColor2": "9EF4FF",
+    "laserColor1": "9EF4FF",
+    "laserColor2": "6FE7F7",
     "category": "power",
     "requirements": [
       { "item": "titanium", "amount": 2},
