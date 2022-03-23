@@ -1,0 +1,43 @@
+{
+	"type": "Drill",
+	"size": 2,
+	"tier": 4,
+	"rotateSpeed": 4.8,
+	"drillTime": 280,
+	"drawRim": true,
+    "itemCapacity": 12,
+	"warmupSpeed": 0.03,
+	"updateEffect": {
+	"type": "ParticleEffect",
+    "particles": 3,
+    "lifetime": 20,
+    "length": 20,
+    "cone": -360,
+    "strokeFrom": 1,
+    "lenFrom": 3,
+    "lenTo": 2,
+    "colorFrom": "6FE7F7FF",
+    "colorTo": "9EF4FFFF"
+	},
+	"updateEffectChance": 0.01,
+	"hasLiquids": true,
+    "heatColor": "9EF4FFFF",
+	"liquidCapacity": 20,
+	"expanded": true,
+	"consumes": {
+		"liquid": {
+			"liquid": "water",
+			"amount": 0.06,
+			"booster": true,
+			"optional": true
+		}
+	},
+	"requirements": [
+        "graphite/10",
+        "frostite/12",
+        "metaglass/6"
+
+	],
+	"category": "production",
+	"research": "laser-drill"
+}

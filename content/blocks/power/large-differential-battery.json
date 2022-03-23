@@ -1,0 +1,23 @@
+{
+	"type": "battery",
+	"size": 3,
+	"fullLightColor": "3EE1F0FF",
+	"emptyLightColor": "CCEDF0FF",
+	"hasPower": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	"hasItems": false,
+	"canOverdrive": false,
+	"health": 1000,
+	"consumes": {
+		"powerBuffered": 64000
+	},
+	"category": "power",
+	"research": "battery",
+	"requirements": [
+		{ "item": "lead", "amount": 100 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "thorium", "amount": 30 },
+		{ "item": "frostite", "amount": 30 }
+	]
+}

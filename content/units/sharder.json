@@ -1,0 +1,71 @@
+{
+    "type": "mech",
+    "armor": 2,
+    "commandLimit": 8,
+    "speed": 0.4,
+    "hitSize": 8,
+    "flying": false,
+    "health": 220,
+    "range": 50,
+    "weapons": [
+      {
+      "name": "frostthrower",
+        "x": 5.5,
+        "y": 0,
+        "reload": 8,
+        "top": false,
+        "mirror": true,
+        "alternate": true,
+        "shootY": 3,
+        "shots": 2,
+        "recoil": 1.5,
+        "rotate": false,
+        "shotDelay": 4,
+        "shootSound": "flame",
+        "shootCone": 8,
+        "bullet": {
+        "type": "BasicBulletType",
+        "collidesAir": true,
+        "speed": 4,
+        "damage": 22,
+        "width": 0.1,
+        "height": 0.1,
+        "shootEffect": {
+        "type": "ParticleEffect",
+        "particles": 8,
+        "sizeFrom": 5,
+        "sizeTo": 0,
+        "length": 40,
+        "lifetime": 20,
+        "interp": "circleOut",
+        "lightColor": "FF5845FF",
+        "colorFrom": "9EF4FFFF",
+        "ColorTo": "6FE7F7FF",
+        "cone": 15
+        },
+        "smokeEffect": "none",
+        "lifetime": 12,
+        "despawnEffect": "none",
+        "hittable": false,
+        "reflectable": false,
+        "hitEffect": {
+      "type": "ParticleEffect",
+        "line": true,
+        "particles": 5,
+        "lifetime": 40,
+        "interp": "circleOut",
+        "length": 60,
+        "cone": -40,
+        "lenFrom": 6,
+        "lenTo": 0,
+        "colorFrom": "9EF4FFFF",
+        "ColorTo": "6FE7F7FF"
+        },
+        "pierce": true,
+        "statusDuration": 90,
+        "status": "freezing"
+         }
+      }
+    ]
+    }
+    

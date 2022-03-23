@@ -1,0 +1,25 @@
+{
+    "type": "SingleTypeGenerator",
+    "size": 3,
+    "liquidCapacity": 400,
+    "itemDuration": 120,
+    "consumes": {
+    "liquid": {
+        "liquid": "slag",
+        "amount": 0.4
+    },
+    "items": {
+        "items": [
+            "frostite/1"
+    ]
+    }
+},
+    "powerProduction": 16,
+    "category": "power",
+    "requirements": [
+		{ "item": "lead", "amount": 100 },
+		{ "item": "titanium", "amount": 80},
+		{ "item": "silicon", "amount": 80 },
+		{ "item": "frostite", "amount": 50 }
+    ]
+}
