@@ -1,7 +1,6 @@
 name: "pf"
 displayName: "Project Frost"
-author: Cry0flu1d
+author: Cry0flu1d & 2356
 description: "A vanilla expansion mod that add a new system"
-version: "0.1-alpha"
+version: "0.1-beta"
 minGameVersion: "135"
-hideBrowser: true
